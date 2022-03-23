@@ -1,5 +1,125 @@
-body {
 
-background-color: yellow, 
+
+
+header {
+
+background-color:  #EAC926;
+
+
+font-family: 'Roboto', sans-serif;
+
+
+
 
 }
+
+
+li {
+    list-style: none;
+color: black;
+   
+}
+
+a{
+text-decoration: none}
+
+
+
+
+
+
+H3{
+
+font-size: 24PX;
+
+
+
+
+}
+
+
+P{
+
+    font-size: 12PX;
+
+   
+    
+    }
+
+
+    section P {
+
+        font-size: 16PX;
+
+        
+
+    }
+
+   .precio p
+   {
+
+    font-size: 18PX;
+
+}
+
+ul li p  {
+
+    text-align: center;
+
+
+    font-size: 18PX;
+
+    
+}
+
+
+nav div{
+    
+    text-align: center;
+
+    font-size: 37px;
+
+    color: white;
+
+    background:  #0000CD;
+
+    width: 60px;
+
+    height: 50px;
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 5px;
+}   
+
+
+
+
+
+nav ul li a{
+
+
+    color: black;
+}
+
+
+ul li p span{
+
+    color: black;
+}
+
+
+ 
+.box{
+
+    
+    min-height:25px;
+  
+  
+  }
+
+   
+        
