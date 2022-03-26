@@ -8,11 +8,21 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+.logo {
+
+  padding-top:  10px;
+  padding-left:  30px;
+  
+
+  
+
+}
 
 
 li {
     list-style: none;
 color: black;
+
    
 }
 
@@ -49,6 +59,7 @@ P{
    {
 
     font-size: 18PX;
+  
 
 }
 
@@ -78,7 +89,7 @@ nav div{
     height: 50px;
 
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -88,6 +99,8 @@ nav div{
 .crédito{
 text-align: center;
 line-height: 1px;
+margin-bottom: 50px;
+
 
 }
 
@@ -109,10 +122,29 @@ ul li p span{
 .box{
 
     
-    min-height:25px;
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+
+
+
+ 
   
-  
-  }
+}
+
+
+.lupa
+
+{
+
+    position: absolute;
+    top: 153px;
+    left: 11%;
+    transform: translate(-50%, -50%);
+
+}
 
         .tarjeta
 
@@ -120,7 +152,7 @@ ul li p span{
 
             top: 70%;
             left: 500%;
-            transform: translate(650%, 5%);
+            transform: translate(320%, 5%);
 
 
             font-size: 2em;
@@ -147,7 +179,7 @@ ul li p span{
 
             top: 70%;
             left: 500%;
-            transform: translate(650%, 5%);
+            transform: translate(320%, 5%);
 
 
             font-size: 2em;
@@ -164,6 +196,9 @@ ul li p span{
             border-radius: 5px;
    
             line-height: 1px
+
+
+            
 
         }
 
@@ -174,7 +209,7 @@ ul li p span{
 
             top: 70%;
             left: 500%;
-            transform: translate(650%, 5%);
+            transform: translate(320%, 5%);
 
 
             font-size: 2em;
@@ -193,3 +228,22 @@ ul li p span{
             line-height: 1px
 
         }
+
+        .cuotas{
+
+            font-size: 15px;
+            text-align: center;
+           padding: 10%;
+           margin-bottom: -10%;
+         
+        
+        }
+
+       nav ul li {
+            margin-left: -8%;
+           
+         
+          
+        }
+
+       
