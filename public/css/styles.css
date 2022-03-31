@@ -74,6 +74,8 @@ P{
    {
 
     font-size: 18PX;
+   
+  
   
 
 }
@@ -269,13 +271,14 @@ ul li p span{
         }
 
 
-        .articulos-centrados {
+        .estructura-main {
 
-
-            
+         width: 90%;
+         padding: 10px;
         }
 
 
+       
 
 
 
