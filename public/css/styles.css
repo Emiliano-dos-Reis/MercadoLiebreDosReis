@@ -103,34 +103,35 @@ ul li p  {
 
     font-size: 18PX;
 
-    
+   
 }
 
 
-nav div{
+
+
+
+
+.burger-menu{
     
-    text-align:var(--alineacion-texto);
- 
-    font-size: 35px;
- 
    
 
+    background-color:  #0000CD;
     color: white;
+    display: block;
+ max-width: 70px;
+ padding: 15px 0;
 
-    background:  #0000CD;
+ border-radius: 8px;
+ text-align:center;
+ font-size: 35px;
+margin: auto;
 
-    width: 45px;
 
-    height: 45px;
 
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    border-radius: 5px;
-   
 }   
+   
+
+  
 
 
 .crédito{
@@ -180,11 +181,19 @@ ul li p span{
 {
 
     position: absolute;
-    top: 153px;
-    left: 11%;
+    top: 128px;
+    right: 15%;
     transform: translate(-50%, -50%);
-
+    
 }
+
+
+.items{
+    display: none;
+
+    }
+
+
 
         .tarjeta
 
@@ -271,7 +280,7 @@ ul li p span{
 
         .cuotas{
 
-            font-size: 15px;
+            font-size: 14px;
             text-align: var(--alineacion-texto);;
            padding: 10%;
            margin-bottom: -8%;
@@ -326,7 +335,7 @@ ul li p span{
      border-left: 10px solid skyblue;
      border-bottom: white;
             box-sizing: border-box;
-           
+         
         
         
         }
@@ -383,10 +392,13 @@ ul li p span{
             text-align: left;
             margin-top: -100px;
             margin-left: -20px;
+
+            line-height: 8px;
+            color:darkslateblue;
         }
-
-
-        @media(min-device-width: 361px) and (max-device-width: 768px){
+    
+    
+        @media(min-device-width: 361px){
 
 
             .descripcion {
@@ -395,13 +407,22 @@ ul li p span{
             }
         .caja{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-             
 
+}
+
+    .items{
+        display: flex;
+
+        }
+
+       
+        nav div{
+             
+            display: none;
             }
 
 
-
+        }
 
 
 
