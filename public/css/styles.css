@@ -1,4 +1,6 @@
 
+
+
 :root {
    --color-icono: #0000CD;
 
@@ -11,10 +13,16 @@
 
 body {
     margin:0;
+
+ min-height: 100%;
+  
+   
 }
 
 
 header {
+
+    
 
 background-color:  #EAC926;
 
@@ -49,7 +57,7 @@ text-decoration: none}
 
 H3{
 
-font-size: 24PX;
+font-size: 20PX;
 
 
 }
@@ -78,6 +86,14 @@ P{
   
   
 
+}
+
+
+
+
+.descripcion {
+
+    display: none;
 }
 
 ul li p  {
@@ -117,15 +133,16 @@ nav div{
 }   
 
 
-
-
 .crédito{
+   
 text-align: var(--alineacion-texto);
 line-height: 1px;
 margin-bottom: 50px;
 
 
+
 }
+
 
 
 nav ul li a{
@@ -175,7 +192,7 @@ ul li p span{
 
             top: 70%;
             left: 500%;
-            transform: translate(320%, 5%);
+            transform: translate(268%, 5%);
 
 
             font-size: 2em;
@@ -202,7 +219,7 @@ ul li p span{
 
             top: 70%;
             left: 500%;
-            transform: translate(320%, 5%);
+            transform: translate(268%, 5%);
 
 
             font-size: 2em;
@@ -232,7 +249,7 @@ ul li p span{
 
             top: 70%;
             left: 500%;
-            transform: translate(320%, 5%);
+            transform: translate(268%, 5%);
 
 
             font-size: 2em;
@@ -271,17 +288,14 @@ ul li p span{
         }
 
 
-        .estructura-main {
-
-     
-        }
+       
 
 
         .camión {
 
             color:green;
             padding: 8px;
-
+           
         }
 
         .circulo {
@@ -297,12 +311,58 @@ ul li p span{
 
         }
 
+        .caja {
+
+            background: white;
+            height: 100%;
+            width: 100%;
+            padding: 50px;
+            padding-top: 10%;
+          padding-left: 5%;
+          padding-right: 5%;
+          border-bottom: none;
+            border: 10px solid skyblue;
+      border-top: 50px solid skyblue;
+     border-left: 10px solid skyblue;
+     border-bottom: white;
+            box-sizing: border-box;
+           
+        
+        
+        }
+
+        .caja2{
+
+
+
+            background: white;
+            height: 100%;
+            width: 100%;
+            padding: 50px;
+            padding-top: 10%;
+          padding-left: 5%;
+          padding-right: 5%;
+
+          padding-bottom: 1%;
+
+
+            border: 10px solid skyblue;
+      border-top: 1px solid white;
+     border-left: 10px solid skyblue;
+            box-sizing: border-box;
+
+        }
+          
+
+    
+
+
         .estructura{
 
 
 
-          width: 100%;
-      
+          width: 90%;
+    
             
             background: white;
            border-top-style: solid;
@@ -311,14 +371,48 @@ ul li p span{
             margin-left:15px;
             margin-right:15px;
             border-style: 1px;
-          
+          margin-top: -90px;
             
           
         }
 
 
 
-        @media(min-device-width: 320px) and (max-device-width: 480px){}
+        .palabra{
+
+            text-align: left;
+            margin-top: -100px;
+            margin-left: -20px;
+        }
+
+
+        @media(min-device-width: 361px) and (max-device-width: 768px){
+
+
+            .descripcion {
+
+                display: flex;
+            }
+        .caja{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+             
+
+            }
+
+
+
+
+
+
+
+
+
+        
+
+
+
+       
 
 
         
