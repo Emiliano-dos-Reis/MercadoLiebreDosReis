@@ -74,7 +74,7 @@ P{
    {
 
     font-size: 18PX;
-   
+    margin-bottom:-20px;
   
   
 
@@ -273,14 +273,48 @@ ul li p span{
 
         .estructura-main {
 
-         width: 90%;
-         padding: 10px;
+     
         }
 
 
-       
+        .camión {
+
+            color:green;
+            padding: 8px;
+
+        }
+
+        .circulo {
+
+            width: 60px;
+            height:60px;
+            background-color: white;
+            border-radius: 50%;
+            border-color: green;
+            border-style: solid;
+          
+            
+
+        }
+
+        .estructura{
 
 
+
+          width: 100%;
+      
+            
+            background: white;
+           border-top-style: solid;
+           border-color: #ebebeb;
+            margin-bottom: 15px;
+            margin-left:15px;
+            margin-right:15px;
+            border-style: 1px;
+          
+            
+          
+        }
 
 
 
