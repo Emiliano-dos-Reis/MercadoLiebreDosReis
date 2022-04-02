@@ -12,17 +12,26 @@
 
 
 body {
-    margin:0;
 
+
+
+   
+    margin:0;
+    
  min-height: 100%;
   
-   
+
+
+
 }
+
+
+
+
 
 
 header {
 
-    
 
 background-color:  #EAC926;
 
@@ -119,9 +128,9 @@ ul li p  {
     color: white;
     display: block;
  max-width: 70px;
- padding: 15px 0;
+ padding: 8px 0;
 
- border-radius: 8px;
+ border-radius: 15px;
  text-align:center;
  font-size: 35px;
 margin: auto;
@@ -181,8 +190,9 @@ ul li p span{
 {
 
     position: absolute;
-    top: 128px;
-    right: 15%;
+    top: 112px;
+    right: 18%;
+  
     transform: translate(-50%, -50%);
     
 }
@@ -335,7 +345,7 @@ ul li p span{
      border-left: 10px solid skyblue;
      border-bottom: white;
             box-sizing: border-box;
-         
+            box-shadow: 0px 0px 900px rgb(100, 100, 100);
         
         
         }
@@ -370,7 +380,7 @@ ul li p span{
 
 
 
-          width: 90%;
+          width: 100%;
     
             
             background: white;
@@ -386,20 +396,25 @@ ul li p span{
         }
 
 
-
         .palabra{
-
-            text-align: left;
-            margin-top: -100px;
-            margin-left: -20px;
-
-            line-height: 8px;
-            color:darkslateblue;
+           text-align: left;
+           margin-top: -90px;
+           background-color: skyblue;
+           line-height: 2px;
+           
         }
+    
+
+
+      
     
     
         @media(min-device-width: 361px){
 
+
+
+
+           
 
             .descripcion {
 
@@ -420,6 +435,153 @@ ul li p span{
              
             display: none;
             }
+
+
+
+
+            .burger-menu{
+    
+   
+             
+               display: none;
+            
+            
+            
+            }   
+
+
+
+            .box{
+
+    
+                position: absolute;
+                top: 17%;
+                left: 18%;
+                transform: translate(-50%, -50%);
+          
+            
+            
+            
+             
+              
+            }
+            
+            
+            .lupa
+            
+            {
+            
+                position: absolute;
+                top: 115px;
+                left: 51%;
+                transform: translate(-50%, -50%);
+               
+            }
+
+            .items {
+                margin-left: -2%;
+              margin-bottom: -18%;
+         
+              
+            }
+            .cuotas{ padding-top: 50px;
+            }
+          
+
+            .palabra{
+             
+                text-align: left;
+                margin-top: -135px;
+                background-color: skyblue;
+                line-height: 2px;
+
+             }
+
+           
+             .tarjeta
+
+             {
+     
+                 top: 70%;
+                 left: 500%;
+                 transform: translate(600%, 5%);
+     
+     
+                 font-size: 2em;
+             
+                 color: var(--color-icono);
+             
+             
+                 width: 60px;
+             
+                 height: 30px;
+             
+                
+             
+                 border-radius: 5px;
+        
+                 line-height: 1px
+     
+             }
+     
+     
+             .usuario
+     
+             {
+     
+                 top: 70%;
+                 left: 500%;
+                 transform: translate(600%, 5%);
+     
+     
+                 font-size: 2em;
+             
+                 color: var(--color-icono);
+             
+             
+                 width: 60px;
+             
+                 height: 30px;
+             
+                
+             
+                 border-radius: 5px;
+        
+                 line-height: 1px
+     
+     
+                 
+     
+             }
+     
+     
+             .regalo
+     
+             {
+     
+                 top: 70%;
+                 left: 500%;
+                 transform: translate(600%, 5%);
+     
+     
+                 font-size: 2em;
+             
+                 color: var(--color-icono);
+             
+             
+                 width: 60px;
+             
+                 height: 30px;
+             
+                
+             
+                 border-radius: 5px;
+        
+                 line-height: 1px
+     
+             }
+          
+
 
 
         }
