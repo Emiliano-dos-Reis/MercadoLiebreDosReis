@@ -33,12 +33,18 @@ body {
 header {
 
 
+    width: 100%;
 background-color:  #EAC926;
 
 
 font-family: var(--tipografia);
 
 }
+
+
+
+
+
 
 .logo {
 
@@ -405,7 +411,7 @@ ul li p span{
         }
     
 
-
+    
       
     
     
@@ -473,7 +479,7 @@ ul li p span{
             
                 position: absolute;
                 top: 115px;
-                left: 51%;
+                left: 50%;
                 transform: translate(-50%, -50%);
                
             }
