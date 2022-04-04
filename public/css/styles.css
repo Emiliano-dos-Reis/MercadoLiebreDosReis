@@ -49,8 +49,9 @@ header {
 }
 
 .buscador, .icono-buscador{
+   
+    margin-left: 25xp;
 
-   margin-left: 25px;
 
 }
 
@@ -114,10 +115,19 @@ main article {
     border-radius: 50%;
 }
 
+.letra-verde{
+
+    color:green;
+}
+
 h3 {
 
     font-size: 15px;
 
+}
+h4 {
+
+    display:none;
 }
 
 footer article{
@@ -157,6 +167,11 @@ footer p{
         display:block;
     
         }
+
+    h4 {
+
+        display:flex;
+    }
 
         
 }
