@@ -48,16 +48,22 @@ header {
     margin-bottom: 15px;
 }
 
-.buscador, .icono-buscador{
+.buscador {
    
-    margin-left: 25xp;
+    margin-left: 17px;
+   
+}
 
+.icono-buscador{
+
+    margin-left: 5px;
 
 }
 
+
 .banner2{
 
-    width: 100%;
+    display:none;
 }
 
 header p {
@@ -93,10 +99,8 @@ main.contenedor-menu {
 
 }
 
-
 main .contenedor-articulos{
-
-        background-color: white;
+  
         border-top: 1px solid #ebebeb;
     
 }
@@ -104,7 +108,7 @@ main .contenedor-articulos{
 main article {
 
     margin: 15px 0px;
-
+    background-color: white;
 }
 
 .camión {
@@ -128,6 +132,11 @@ h3 {
 h4 {
 
     display:none;
+}
+
+footer {
+
+    background-color: white;
 }
 
 footer article{
@@ -172,6 +181,19 @@ footer p{
 
         display:flex;
     }
+
+    li {
+
+        padding-left: 15px;
+    }
+
+    .banner2{
+
+        width: 100%;
+        display:flex;
+    }
+
+
 
         
 }
