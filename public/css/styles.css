@@ -47,7 +47,6 @@ header {
     margin-left: 10px;
     margin-bottom: 15px;
    
-
 }
 
 .buscador {
@@ -55,11 +54,7 @@ header {
     margin-left: 10px;
     width: 100px;
 
-
 }
-
-
-
 
 .icono-buscador{
    
@@ -67,7 +62,6 @@ header {
     height: 60%;
     background-color:white;
     
-
 }
 
     .logo_buscador{
@@ -75,12 +69,7 @@ header {
         display:flex;
       height: 50%;
         
-        
-        
-        }
-
-
-
+}
 
 .banner2{
 
@@ -92,11 +81,11 @@ header p {
     text-align: center;
     margin: 10px 0px;
     font-size: 12px;
-    }
+}
 
 header nav ul {
 
-        display:none;
+    display:none;
 }
 
 .burger-menu{
@@ -118,8 +107,6 @@ main.contenedor-menu {
 
     width:90%;
     margin:0 auto;
-    
-   
 
 }
 
@@ -129,17 +116,11 @@ main.contenedor-menu {
         padding: 15px;
 }
 
-
-
 main .contenedor-articulos{
   
         border-top: 1px solid #ebebeb;
     
 }
-
-
-
-
 
 main article {
 
@@ -148,19 +129,14 @@ main article {
 }
 
 .camión {
-    
-      
-    
-        padding: 0px;
-        box-sizing: border-box;
-       color:#39b54a;
-       text-align: right;
-       margin: -15px 15px;
-     
        
-       
-}
+    padding: 0px;
+    box-sizing: border-box;
+    color:#39b54a;
+    text-align: right;
+    margin: -15px 15px;
 
+}
 
 main section article i{
     display: block;
@@ -171,10 +147,7 @@ main section article i{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-   
-
-    
-   
+     
 }
 
 .precio-final{
@@ -192,6 +165,7 @@ h3 {
     font-size: 15px;
 
 }
+
 h4 {
 
     display:none;
@@ -216,158 +190,134 @@ footer p{
 
     color:#2929f8;
     font-size: 25px;
-  
     
 }
 
 @media screen and (min-width: 361px){
 
-    main article {
 
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+main article {
 
-        }
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
 
-    .burger-menu{
+}
 
-        display: none;
+.burger-menu{
 
-        }
+    display: none;
 
-    header nav ul{
+}
 
-        display:block;
+header nav ul{
+
+    display:block;
     
-        }
+}
 
+.contenedor1{
 
-       .contenedor1{
+    display:flex;
+    justify-content: space-between;
+        
+    }
 
-        display:flex;
-        justify-content: space-between;
-       
-       }
+.mano{
 
-       .mano{
+    margin-right: 25px;
 
-        margin-right: 25px;
-       }
+}
      
-
-       .buscador {
+.buscador {
    
         margin-left: 25px;
         margin-top: 5px
-       }
+}
 
-        
-       .icono-buscador{
+.icono-buscador{
    
         margin-top: 5px;
         margin-left: 70px;
+    
+}
+    
+.listado{
+
+    display:flex;
+    justify-content: space-between;
+       
+}
+
+.listado ul{
+
+    display:flex;
+    margin-top: 20px;
         
+    }
+
+.listado li {
+
+    margin: 0 6px;
         
+ }
     
-    }
-    .listado{
+h4 {
 
-        display:flex;
-        justify-content: space-between;
-    
-        }
-
-    .listado ul{
-
-        display:flex;
-        margin-top: 20px;
-    }
-
-    .listado li {
-
-        margin: 0 6px;
-    }
-    
-    
-    
+    display:flex;
+    padding: 15px;
    
+}
 
+li {
 
+    padding-left: 15px;
+}
 
+.banner2{
 
+    width: 100%;
+    display:flex;
 
+}
 
-    h4 {
+.dosfotos{
 
-        display:flex;
-        padding: 15px;
-    }
+    display:flex;
+    
+}
 
-    li {
+.dosfotos2{
 
-        padding-left: 15px;
-    }
+    display:flex;
+    
+}
 
-    .banner2{
+.letra-verde{
 
-        width: 100%;
-        display:flex;
-    }
-
-
-
-
-
-
-    .dosfotos{
-
-        display:flex;
-    }
-
-    .dosfotos2{
-
-        display:flex;
-    }
-
-
-    .letra-verde{
-
-        display:flex;
+    display:flex;
      margin-left: 30px;
      margin-top: 5px;
      font-size: 11px;
-      
-    
-      
+     
 }
   
     }
 
-   
-    
+@media(min-width: 769px){
 
+.contenedor-menu{
 
+    display:flex;
 
-    @media(min-width: 769px){
+}
 
+.letra-verde{
 
-
-        .contenedor-menu{
-
-            display:flex;
-
-    }
-
-
-
-    .letra-verde{
-
-        display:flex;
-     margin-left: 30px;
-     margin-top: 5px;
-     font-size: 11px;
-      
-    
-      
+    display:flex;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 11px;
+         
 }
        
     }
