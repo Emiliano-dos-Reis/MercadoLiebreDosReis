@@ -193,6 +193,11 @@ footer p{
     
 }
 
+
+.create-form{
+    padding: 20px 15px;
+}
+
 @media screen and (min-width: 361px){
 
 
