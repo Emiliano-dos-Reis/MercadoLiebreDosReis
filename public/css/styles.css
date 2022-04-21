@@ -1,7 +1,6 @@
 
 
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,91 +14,67 @@
    --tipografia: 'Roboto', sans-serif;
 }
 
-
 li {
-    list-style: none;
-   
+    list-style: none;  
 }
 
 a{
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    color: black;
 }
 
 body {
-
     font-family: var(--tipografia);
     background-color: #ebebeb;
-
 }
 
 header {
-
     background-color:  #EAC926;
     font-size: 12px;
     padding: 30px 0px 10px;
-
 }
 
 .logo {
-
     width: 120px;
     margin-left: 10px;
     margin-bottom: 15px;
-   
 }
 
 .buscador {
-    
     margin-left: 10px;
     width: 100px;
-
-
 }
 
 .icono-buscador{
-   
-   
     margin-left: 60px;
     height: 60%;
     background-color:white;
-
-
-    
-    
 }
 
-    .logo_buscador{
-        width:100%;
-        display:flex;
-      height: 50%;
-      
-     
-      max-width: 400px;
-      margin-left: auto;
-      margin-right: auto;
-        
+.logo_buscador{
+    width:100%;
+    display:flex;
+    height: 50%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;     
 }
 
 .banner2{
-
     display:none;
 }
 
 header p {
-
     text-align: center;
     margin: 10px 0px;
     font-size: 12px;
 }
 
 header nav ul {
-
     display:none;
 }
 
 .burger-menu{
-
     background-color:  #0000CD;
     color: white;
     width: 40px;
@@ -112,40 +87,31 @@ header nav ul {
 
 /*         main                */
 
-
 main.contenedor-menu {
-
     width:90%;
     margin:0 auto;
-
 }
 
 .articulos{
-
-        display:flex;
-        padding: 15px;
+    display:flex;
+    padding: 15px;
 }
 
 main .contenedor-articulos{
-  
-        border-top: 1px solid #ebebeb;
-    
+    border-top: 1px solid #ebebeb; 
 }
 
 main article {
-
     margin: 15px 0px;
     background-color: white;
 }
 
-.camión {
-       
+.camión { 
     padding: 0px;
     box-sizing: border-box;
     color:#39b54a;
     text-align: right;
     margin: -15px 15px;
-
 }
 
 main section article i{
@@ -157,248 +123,158 @@ main section article i{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-     
 }
 
 .precio-final{
-
     width: 30%;;
 }
-.letra-verde{
 
+.letra-verde{
     color:green;
     width: 70%;
 }
 
 h3 {
-
     font-size: 15px;
-
 }
 
 h4 {
-
     display:none;
 }
 
 footer {
-
     padding-top: 25px;
     background-color: white;
-
 }
 
 footer article{
-
     text-align: center;
 }
  
 footer p{
-
     font-size: 12px;
 }
 
 .icono-footer{
-
     color:#2929f8;
     font-size: 25px;
-    
 }
-
 
 @media screen and (min-width: 361px){
 
-
-
-
-
-
 main{
-
     flex-wrap: wrap;
-    width: 125%;
-   
-   
+    width: 120%; 
 }
 
-
-
 header{
-    flex-wrap: wrap;
-    width: 125%;
-   
+    display:wrap;
+    width: 120%; 
 }
 
 main article {
-
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin: 48px;
-
 }
 
 .burger-menu{
-
     display: none;
-
 }
 
 header nav ul{
-
     display:block;
-    
 }
 
 .contenedor1{
-
-
-
     margin: auto;
     display:flex;
     justify-content: space-between;
-    
-
     }
 
 .mano{
-
     margin-right: 25px;
-
 }
      
 .buscador {
    
-        align-content: center;
-       
+    align-content: center;   
 }
 
 .icono-buscador{
-   
-        margin-top: 5px;
-        margin-left: 70px;
-    
-        margin-top: 0px;
-
+    margin-top: 5px;
+    margin-left: 70px;
+    margin-top: 0px;
 }
     
-
-
-
-
-
-
-
-
 .listado{
-
     display:flex;
-    justify-content: space-between;
-       
+    justify-content: space-between;  
 }
 
 .listado ul{
-
     display:flex;
-    margin-top: 20px;
-        
-    }
+    margin-top: 20px;  
+}
 
 .listado li {
-
-    margin: 0 6px;
-        
- }
+    margin: 0 6px;    
+}
     
 h4 {
-
     display:flex;
     padding: 15px;
-   
 }
 
 li {
-
     padding-left: 15px;
 }
 
 .banner2{
-
     width: 100%;
     display:flex;
     flex-wrap: wrap;
-    width: 125%;
-   
-
+    width: 120%;
 }
 
 .dosfotos{
-
-    display:flex;
-    
-    
-    
+    display:flex;  
 }
 
 .dosfotos2{
-
     display:flex;
-    
 }
 
 .letra-verde{
-
-    display:flex;
-     margin-left: 30px;
-     margin-top: 5px;
-     font-size: 11px;
-     
-}
-
-footer {
-
-    display: flex;
-    flex-direction: column;
-    width: 125%;
-
-}
-
-
-
-  
-    }
-
-@media(min-width: 769px){
-
-
-    main article {
-
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        margin: 23px;
-    
-    }
-
-.contenedor-menu{
-
-    display:flex;
-
-}
-
-.letra-verde{
-
     display:flex;
     margin-left: 30px;
     margin-top: 5px;
     font-size: 11px;
-         
 }
-footer{
 
+footer {
     display: flex;
     flex-direction: column;
-    width: 125%;
+    width: 120%;
+}
 
 }
 
+@media(min-width: 769px){
 
+main article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 23px;
+}
 
-       
-    }
+.contenedor-menu{
+    display:flex;
+}
+
+.letra-verde{
+    display:flex;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 11px;   
+}
+   
+}
