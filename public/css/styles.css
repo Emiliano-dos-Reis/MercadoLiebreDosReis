@@ -18,19 +18,16 @@
 
 li {
     list-style: none;
-   
 }
 
 a{
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    color: black;
 }
 
 body {
-
     font-family: var(--tipografia);
     background-color: #ebebeb;
-
 }
 
 header {
@@ -38,7 +35,6 @@ header {
     background-color:  #EAC926;
     font-size: 12px;
     padding: 30px 0px 10px;
-
 }
 
 .logo {
@@ -46,50 +42,40 @@ header {
     width: 100px;
     margin-left: 10px;
     margin-bottom: 15px;
-   
 }
 
 .buscador {
-   
     margin-left: 10px;
     width: 100px;
-
 }
 
 .icono-buscador{
-   
     margin-left: 60px;
     height: 60%;
-    background-color:white;
-    
+    background-color:white; 
 }
 
-    .logo_buscador{
+.logo_buscador{
 
-        display:flex;
-      height: 50%;
-        
+    display:flex;
+    height: 50%;      
 }
 
 .banner2{
-
     display:none;
 }
 
 header p {
-
     text-align: center;
     margin: 10px 0px;
     font-size: 12px;
 }
 
 header nav ul {
-
     display:none;
 }
 
 .burger-menu{
-
     background-color:  #0000CD;
     color: white;
     width: 40px;
@@ -102,40 +88,31 @@ header nav ul {
 
 /*         main                */
 
-
 main.contenedor-menu {
-
     width:90%;
     margin:0 auto;
-
 }
 
 .articulos{
-
-        display:flex;
-        padding: 15px;
+    display:flex;
+    padding: 15px;
 }
 
 main .contenedor-articulos{
-  
-        border-top: 1px solid #ebebeb;
-    
+    border-top: 1px solid #ebebeb;
 }
 
 main article {
-
     margin: 15px 0px;
     background-color: white;
 }
 
-.camión {
-       
+.camión { 
     padding: 0px;
     box-sizing: border-box;
     color:#39b54a;
     text-align: right;
     margin: -15px 15px;
-
 }
 
 main section article i{
@@ -147,68 +124,55 @@ main section article i{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-     
 }
 
 .precio-final{
-
     width: 30%;;
 }
-.letra-verde{
 
+.letra-verde{
     color:green;
     width: 70%;
 }
 
 h3 {
-
     font-size: 15px;
-
 }
 
 h4 {
-
     display:none;
 }
-
 footer {
-
     background-color: white;
+    padding: 5px;
 }
 
 footer article{
-
     text-align: center;
 }
  
 footer p{
-
     font-size: 12px;
 }
 
 .icono-footer{
-
     color:#2929f8;
     font-size: 25px;
     margin-top: 15px;
-    
 }
-
 
 .create-form{
     padding: 20px 15px;
 }
 
-
-
 /*-------------------------------------------------register----------------------------------------------*/
+
 .register{
     max-width: 400px;
 }
 
 .create-form{
     padding: 20px 15px;
-   
 }
 
 .control_form{
@@ -230,7 +194,6 @@ footer p{
 }
 
 .boton_form{
-
     background-color:#2929f8;
     border: none;
     font-size: 20px;
@@ -243,17 +206,15 @@ footer p{
 
 .login{
     max-width: 400px;
-   
 }
-.login main{
 
+.login main{
     background-color: #0000CD;
 }
 
 .boton_form1 a{
     color: white
 }
-
 
 .boton_form1{
     background-color:#2929f8;
@@ -284,149 +245,115 @@ footer p{
 
 @media screen and (min-width: 361px){
 
+.login{ 
+    margin-left:auto;
+    margin-right:auto;
+}
 
+.register{  
+    margin-left:auto;
+    margin-right:auto;
+}
 
-    header{
-        flex-wrap: wrap;
-        width: 120%;
-       
-    }
+header{
+    flex-wrap: wrap; 
+}
 
 main article {
-
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin: 48px;
-
 }
 
 .burger-menu{
-
     display: none;
-
 }
 
 header nav ul{
-
     display:block;
-    
 }
 
 .contenedor1{
-
-   
     display:flex;
-    justify-content: space-between;
-        
-    }
+    justify-content: space-between;    
+}
 
 .mano{
-
     margin-right: 25px;
-
 }
      
 .buscador {
-   
-        margin-left: 25px;
-        margin-top: 5px
+    margin-left: 25px;
+    margin-top: 5px
 }
 
 .icono-buscador{
-   
-        margin-top: 5px;
-        margin-left: 70px;
-    
+    margin-top: 5px;
+    margin-left: 70px;  
 }
     
 .listado{
-
     display:flex;
     justify-content: space-between;
-       
 }
-
+       
 .listado ul{
-
     display:flex;
-    margin-top: 20px;
-        
+    margin-top: 20px;  
     }
 
 .listado li {
-
-    margin: 0 6px;
-        
+    margin: 0 6px;    
  }
     
 h4 {
-
     display:flex;
     padding: 15px;
-   
 }
 
 li {
-
     padding-left: 15px;
 }
 
 .banner2{
-
-    
     display:flex;
-    
     flex-wrap: wrap;
     width: 120%;
-
 }
 
 .dosfotos{
-
     display:flex;
     width: 100%;
-    
 }
 
 .dosfotos2{
-
-    display:flex;
-    
+    display:flex; 
 }
 
 .letra-verde{
-
     display:flex;
-     margin-left: 30px;
-     margin-top: 5px;
-     font-size: 11px;
-     
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 11px;   
 }
 
 footer {
-
     display: flex;
     flex-direction: column;
-    width: 120%;
-
 }
   
-    }
+}
 
 @media(min-width: 769px){
 
 .contenedor-menu{
-
     display:flex;
-
 }
 
 .letra-verde{
-
     display:flex;
     margin-left: 30px;
     margin-top: 5px;
-    font-size: 11px;
-         
+    font-size: 11px;    
 }
        
-    }
+}
