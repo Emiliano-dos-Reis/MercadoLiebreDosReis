@@ -78,6 +78,8 @@
 
        </header>
 
+       <main class="register">
+
 <form action="/registro" method="POST" class="create-form">
     <div class="control_form">
         <label>Nombre y apellido</label>
@@ -88,6 +90,12 @@
             <label>Nombre del usuario</label>
 
             <input type="text" name="usuario" placeholder="usuario" class="control">
+        </div>
+
+        <div class="control_form">
+            <label>Email</label>
+
+            <input type="email" name="email" placeholder="Email" class="control">
         </div>
         <div class="control_form">
             <label>Fecha de nacimiento</label>
@@ -139,11 +147,15 @@
             <input type="Cambiar contraseña" name="Cambiar contraseña" placeholder="Cambiar contraseña" class="control">
         </div>
         
+
+        
     <button type="submit"class="boton_form"><a href="http://localhost:3030">ENVIAR</a></button>
     <button type="reset" class="boton_form">BORRAR</button>
 
 </form>
 
+
+</main>
 <footer>
     <section>
 
