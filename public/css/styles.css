@@ -31,14 +31,12 @@ body {
 }
 
 header {
-
     background-color:  #EAC926;
     font-size: 12px;
     padding: 30px 0px 10px;
 }
 
 .logo {
-
     width: 100px;
     margin-left: 10px;
     margin-bottom: 15px;
@@ -56,7 +54,6 @@ header {
 }
 
 .logo_buscador{
-
     display:flex;
     height: 50%;      
 }
@@ -102,6 +99,10 @@ main .contenedor-articulos{
     border-top: 1px solid #ebebeb;
 }
 
+main:hover .contenedor-articulos{
+    box-shadow: 20px 20px 20px rgb(100, 100, 100);
+}
+
 main article {
     margin: 15px 0px;
     background-color: white;
@@ -113,6 +114,11 @@ main article {
     color:#39b54a;
     text-align: right;
     margin: -15px 15px;
+    transition: transform 0.3s ease-out;
+}
+
+.fa-truck:hover{
+    transform: rotate(270deg);
 }
 
 main section article i{
@@ -140,8 +146,14 @@ h3 {
 }
 
 h4 {
-    display:none;
+    opacity: 0;
+    transition: opacity 450ms;
 }
+
+h4:hover {
+    opacity: 1;
+}
+
 footer {
     background-color: white;
     padding: 5px;
@@ -217,7 +229,7 @@ footer p{
 }
 
 .boton_form1{
-    background-color:#2929f8;
+    background-color:black;
     border: none;
     font-size: 20px;
     color: black;
@@ -225,6 +237,10 @@ footer p{
     border-radius: 5px;
     width: 100%;
     margin-top: 50px;
+}
+
+.boton_form1:hover{
+    background:  #0022AA;
 }
 
 .texto_error{
@@ -257,6 +273,7 @@ footer p{
 
 header{
     flex-wrap: wrap; 
+    width: 121%
 }
 
 main article {
@@ -317,16 +334,20 @@ li {
 .banner2{
     display:flex;
     flex-wrap: wrap;
-    width: 120%;
+    width: 121%;
 }
 
 .dosfotos{
     display:flex;
+    flex-direction:row;
     width: 100%;
 }
 
 .dosfotos2{
     display:flex; 
+    flex-direction:row;
+    width: 100%
+    
 }
 
 .letra-verde{
@@ -355,5 +376,40 @@ footer {
     margin-top: 5px;
     font-size: 11px;    
 }
-       
+
+footer section {
+    display: flex;
+    flex-direction:row
+    
+}
+.copy{
+    margin-top: 25px;
+} 
+
+.icono-footer:hover{
+
+    color: #EAC926;
+}
+
+
+
+main{
+    width: 121%;
+}
+
+footer{
+    width: 121%;
+}
+
+
+header {
+   
+    width: 121%
+}
+
+.banner2{
+    
+    width: 121%;
+}
+
 }
