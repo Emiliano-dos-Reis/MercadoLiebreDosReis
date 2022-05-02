@@ -1,7 +1,6 @@
 
 
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +13,6 @@
 
    --tipografia: 'Roboto', sans-serif;
 }
-
 
 li {
     list-style: none;
@@ -316,11 +314,11 @@ header nav ul{
 .listado ul{
     display:flex;
     margin-top: 20px;  
-    }
+}
 
 .listado li {
     margin: 0 6px;    
- }
+}
     
 h4 {
     display:flex;
@@ -347,7 +345,6 @@ li {
     display:flex; 
     flex-direction:row;
     width: 100%
-    
 }
 
 .letra-verde{
@@ -379,19 +376,16 @@ footer {
 
 footer section {
     display: flex;
-    flex-direction:row
-    
+    flex-direction:row  
 }
+
 .copy{
-    margin-top: 25px;
+    margin-top: 50px;
 } 
 
 .icono-footer:hover{
-
     color: #EAC926;
 }
-
-
 
 main{
     width: 121%;
@@ -400,7 +394,6 @@ main{
 footer{
     width: 121%;
 }
-
 
 header {
    
